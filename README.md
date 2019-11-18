@@ -15,6 +15,7 @@ Part 1
 5)  exit
 6)  echo "Starting a dummy service running at port 80"
 7)  docker run -d -p 80:80 nginx 
+
 Part 2
 1)  sudo apt-get install software-properties-common
 2)  sudo add-apt-repository universe
@@ -22,6 +23,7 @@ Part 2
 4)  sudo apt-get update
 5)  sudo apt-get install certbot
 6)  sudo ./create-cert.sh
+
 Part 3
 1)  mkdir     /home/ubuntu/bridge
 2)  mkdir     /home/ubuntu/bridge/conf.d
