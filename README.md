@@ -8,13 +8,13 @@ Basically, we need to do just a few steps:
 3) Build a Wrapper by Using an nginx custom proxy
 
 1)
-    1  sudo sh -c "echo 'LC_ALL=en_US.UTF-8\nLANG=en_US.UTF-8' >> /etc/environment"
-    2  sudo apt-get update
-    3  wget -qO- https://get.docker.com/ | sh
-    4  sudo gpasswd -a ${USER} docker
-    5  exit
-    6  echo "Starting a dummy service running at port 80"
-    7  docker run -d -p 80:80 nginx 
+    1)  sudo sh -c "echo 'LC_ALL=en_US.UTF-8\nLANG=en_US.UTF-8' >> /etc/environment"
+    2)  sudo apt-get update
+    3)  wget -qO- https://get.docker.com/ | sh
+    4)  sudo gpasswd -a ${USER} docker
+    5)  exit
+    6)  echo "Starting a dummy service running at port 80"
+    7)  docker run -d -p 80:80 nginx 
 2)
     1  sudo apt-get install software-properties-common
     2  sudo add-apt-repository universe
