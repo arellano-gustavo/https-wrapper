@@ -1,7 +1,7 @@
 # https-wrapper
 Strategy for wrapping a non SSL service with dockerized nginx and Lets Encript Certificates.
 
-THE ONLY ONE REQUIREMENT IS THAT <b>YOUR DOMAIN</b> IS POINTING TO THE <b>IP ADDRES</b> OF THE SERVER IN WHICH YOU WILL DO THE FOLLOWING STUFF
+THE ONLY ONE REQUIREMENT IS THAT <b>YOUR DOMAIN</b> IS POINTING TO THE <b>IP ADDRESS</b> OF THE SERVER IN WHICH YOU WILL DO THE FOLLOWING STUFF
 
 Basically, we need to do just a few steps:
 
