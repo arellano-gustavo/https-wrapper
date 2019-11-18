@@ -16,7 +16,7 @@ Part 1
 6)  echo "Starting a dummy service running at port 80"
 7)  docker run -d -p 80:80 nginx 
 
-Part 2
+Part 2 (If you have your own certificates, omit this part)
 1)  sudo apt-get install software-properties-common
 2)  sudo add-apt-repository universe
 3)  sudo add-apt-repository ppa:certbot/certbot
