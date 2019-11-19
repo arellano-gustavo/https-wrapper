@@ -29,7 +29,7 @@ Part 2 (If you have your own certificates, omit this part)
 Part 3
 1)  mkdir     /home/ubuntu/bridge
 2)  mkdir     /home/ubuntu/bridge/conf.d
-3)  nano      /home/ubuntu/bridge/pba.conf
+3)  nano      /home/ubuntu/bridge/conf.d/pba.conf
 4)  nano      /home/ubuntu/bridge/run.sh
 5)  chmod 700 /home/ubuntu/bridge/run.sh
 6)  /home/ubuntu/bridge/run.sh 
