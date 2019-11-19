@@ -35,7 +35,7 @@ Part 3
 6)  /home/ubuntu/bridge/run.sh 
 
 Now, you can see in: https://your-site.com how the certs are shown...
-NOTE: If you have given a Certifice, just adjust the paths for its location in "run.sh" and "conf.d" accordangly
+NOTE: If you have given an SSL Certificate, just adjust the paths for its location in "run.sh" and "conf.d" accordangly
 
 Cheers,
 Goose
